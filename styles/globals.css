@@ -12,11 +12,19 @@ body {
 
 main {
   padding: 5rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin: 1rem
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin: .6rem 0;
 }
 
 code {
@@ -27,7 +35,6 @@ code {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
