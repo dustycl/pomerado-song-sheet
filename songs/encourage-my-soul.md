@@ -1,6 +1,5 @@
 ---
 title: Encourage My Soul
-date: "2022-01-20 18:49:47"
 ---
 Encourage My Soul
 

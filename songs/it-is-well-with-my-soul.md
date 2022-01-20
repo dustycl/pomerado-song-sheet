@@ -1,6 +1,5 @@
 ---
 title: It is Well With my Soul
-date: "2022-01-20 18:50:06"
 ---
 It Is Well With My Soul
 

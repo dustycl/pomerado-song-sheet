@@ -1,6 +1,5 @@
 ---
 title: A Faithful Witness
-date: "2022-01-20 06:49:44"
 ---
 # A Faithful Witness
 
