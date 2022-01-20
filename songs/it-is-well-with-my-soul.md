@@ -1,3 +1,7 @@
+---
+title: It is Well With my Soul
+date: 2022-01-20T18:50:06.793Z
+---
 It Is Well With My Soul
 
 When peace like a river attendeth my way
