@@ -1,3 +1,7 @@
+---
+title: Encourage My Soul
+date: 2022-01-20T18:49:47.066Z
+---
 Encourage My Soul
 
 Encourage my soul and let us journey on
