@@ -1,6 +1,5 @@
 ---
 title: Glory Glory
-date: 2022-01-20T21:10:11.133Z
 ---
 Glory glory, hallelujah\
 Since I laid my burdens down\
