@@ -1,6 +1,6 @@
 ---
 title: Encourage My Soul
-date: 2022-01-20T18:49:47.066Z
+date: "2022-01-20 18:49:47"
 ---
 Encourage My Soul
 
