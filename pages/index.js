@@ -1,18 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import { getSortedSongsData } from '../lib/songs'
 
-export async function getStaticProps() {
-  const allSongsData = getSortedSongsData();
-  return {
-    props: {
-      allSongsData
-    }
-  }
-}
-
-export default function Home({ allSongsData }) {
+export default function Home() {
   return (
     <div className="container">
       <Head>
@@ -22,19 +12,6 @@ export default function Home({ allSongsData }) {
 
       <main>
         <Header title="Pomerado Song Lyrics" />
-
-        <section>
-          <h2>Songs</h2>
-          <ul>
-            {allSongsData.map(({ id, title }) => (
-              <li key={id}>
-                {title}
-                <br />
-                {id}
-              </li>
-            ))}
-          </ul>
-        </section>
       </main>
 
       <Footer />
