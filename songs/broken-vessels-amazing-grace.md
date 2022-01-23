@@ -1,6 +1,5 @@
 ---
-title: Broken Vessels (Amazing Grace)
-date: 2022-01-23T00:14:18.947Z
+title: "Broken Vessels (Amazing Grace)"
 ---
 **VERSE 1:**\
 All these pieces\

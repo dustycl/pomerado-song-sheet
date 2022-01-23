@@ -1,4 +1,5 @@
-import { getAllSongIds, getSongData } from "../../lib/songs"
+import Link from 'next/link';
+import { getAllSongIds, getSongData } from "../../lib/songs";
 
 export async function getStaticPaths() {
     const paths = getAllSongIds();
@@ -20,9 +21,12 @@ export async function getStaticProps({ params }) {
 
 export default function Song({ songData }) {
     return (
-        <div className = "container">
-            <h1>{songData.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: songData.contentHtml }} />
+        <div>
+            <Link href='/songs'><a>&#8592; back</a></Link>
+            <div className = "container">
+                <h1>{songData.title}</h1>
+                <div dangerouslySetInnerHTML={{ __html: songData.contentHtml }} />
+            </div>
         </div>
     )
 }
