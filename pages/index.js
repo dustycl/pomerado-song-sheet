@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Image from 'next/image'
+import qrCode from '../public/images/qr-code.png'
 
 
 export default function Home() {
@@ -107,6 +108,9 @@ export default function Home() {
           </p>
         </section>
       </main>
+      <aside>
+        <Image src={qrCode} alt="qr code for link to lyrics" />
+      </aside>
       <Footer />
     </div>
   )
