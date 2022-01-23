@@ -1,6 +1,6 @@
 html,
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -10,8 +10,14 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  padding: 1rem;
+  background: #4c1ebc;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
