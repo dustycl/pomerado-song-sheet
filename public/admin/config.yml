@@ -16,7 +16,7 @@ collections:
       folder: "/services"
       fields:
         - { label: "Date", name: "date", widget: "string"}
-        - label: "Songs"
+        - label: "Song List"
           name: "songList"
           widget: "list"
           field:
