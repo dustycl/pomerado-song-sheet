@@ -17,7 +17,7 @@ collections:
       fields:
         - { label: "Date", name: "date", widget: "string"}
         - label: "Songs"
-          name: "songs"
+          name: "songList"
           widget: "list"
           field:
             - {label: "Song", name: "song", widget: "relation", collection: "songs", search_fields: ['name.title']}
