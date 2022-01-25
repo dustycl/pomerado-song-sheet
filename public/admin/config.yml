@@ -9,12 +9,32 @@ collections:
     folder: "/songs"
     create: true
     fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
   - name: "services"
     label: "Services"
     folder: "/services"
     create: true
     fields:
-      - { label: "Date", name: "date", widget: "string"}
-      - { label: "Songs", name: "songs", widget: "list", field: {label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "body", search_fields: ["title"]}}
+      - {label: "Date", name: "date", widget: "string"}
+      - label: "Songs"
+        name: "songs"
+        widget: "list"
+        field: 
+          - label: "Song"
+            name: "song"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "relation"
+                collection: "songs"
+                value_field: "title"
+                search_fields: ["title"]
+              - label: "Body"
+                name: "body"
+                widget: "relation"
+                collection: "songs"
+                value_field: "body"
+                search_fields: ["title"]
+                display_fields: ["title"]
