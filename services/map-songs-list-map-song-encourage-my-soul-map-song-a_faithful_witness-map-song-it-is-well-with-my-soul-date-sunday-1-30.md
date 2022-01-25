@@ -1,5 +1,5 @@
 ---
-date: Sunday 1/30
+date: January 30th
 songs:
   - song: encourage-my-soul
   - song: a_faithful_witness
