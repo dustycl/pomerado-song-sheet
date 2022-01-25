@@ -1,5 +1,5 @@
 ---
-date: Sunday 2/6
+date: February 6th
 songs:
   - song: encourage-my-soul
   - song: glory-glory
