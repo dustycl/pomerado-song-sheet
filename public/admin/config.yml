@@ -16,4 +16,4 @@ collections:
     folder: "/services"
     fields:
       - { label: "Date", name: "date", widget: "string"}
-      - { label: "Songs", name: "songs", widget: "list", field: {label: "Song", name: "song", widget: "relation", collection: "songs", search_fields: ['name.title']}}
+      - { label: "Songs", name: "songs", widget: "list", field: {label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "title", search_fields: ["title"]}}
