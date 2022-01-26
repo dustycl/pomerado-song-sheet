@@ -21,7 +21,7 @@ const ServiceList = ({ servicesData }) => {
     const serviceList = servicesData.map(({ id, date, songs }) => {
         return (
             <li key={id}>
-                {date}
+                {date.toString()}
                 <br />
                 <SongList songs={songs} />
             </li>

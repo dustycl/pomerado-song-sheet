@@ -6,6 +6,9 @@ import { getSongData } from '../lib/songs'
 
 
 export async function getStaticProps() {
+  // Get latest service
+  // Map songs to songList
+  
   const songList = ["broken-vessels-amazing-grace", "lord-god-almighty", "encourage-my-soul"];
 
   const songsData = await Promise.all(songList.map(async song => {
