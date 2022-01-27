@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: master
 
 media_folder: public/img
 public_folder: img
@@ -17,7 +18,7 @@ collections:
     create: true
     identifier_field: "date"
     fields:
-      - {label: "Date", name: "date", widget: "datetime", format: "MMMM Do"}
+      - {label: "Date", name: "date", widget: "datetime", format: "MMMM Do", date_format: "MMMM Do", time_format: false}
       - label: "Songs"
         name: "songs"
         widget: "list"
