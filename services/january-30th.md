@@ -1,5 +1,5 @@
 ---
 date: January 30th
 songs:
-  - song: broken-vessels-amazing-grace
+  - song: be-with-me-lord
 ---
