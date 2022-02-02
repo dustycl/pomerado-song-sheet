@@ -15,7 +15,7 @@ collections:
     label: "Services"
     folder: "/services"
     create: true
-    summary: '{{MMMM}} {{Do}}'
+    summary: '{{Month}}-{{Day}}-{{Year}}'
     identifier_field: "date"
     fields:
       - {label: "Date", name: "date", widget: "datetime", format: "MM-DD-YYYY", date_format: "MMMM Do", time_format: false}
