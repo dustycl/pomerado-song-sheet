@@ -18,10 +18,10 @@ const SongList = ({ songs }) => {
 }
 
 const ServiceList = ({ servicesData }) => {
-    const serviceList = servicesData.map(({ id, date, songs }) => {
+    const serviceList = servicesData.map(({ id, title, songs }) => {
         return (
             <li key={id}>
-                {date}
+                {title}
                 <br />
                 {songs && <SongList songs={songs} />}
             </li>
