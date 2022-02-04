@@ -38,9 +38,8 @@ collections:
       identifier_field: "date"
       fields:
         - { label: "Date", name: "date", widget: "datetime", format: "MMMM Do", date_format: "MMMM Do", time_format: false}
-        - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Songs'
           name: "songs"
           widget: list
           fields:
-            - { label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "body", search_fields: ["title"]}
+            - { label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "body", search_fields: ["title"], display_fields: ["title"]}
