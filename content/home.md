@@ -1,6 +1,5 @@
 ---
-title: A Faithful Witness
-date: 2022-01-19T18:41:48.724Z
+date: 
 ---
 Amazing grace how sweet the sound\
 I once was lost but now I′m found\
