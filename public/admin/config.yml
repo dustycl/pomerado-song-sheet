@@ -43,4 +43,4 @@ collections:
           name: "songs"
           widget: list
           fields:
-            - { label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "body", search_fields: "title"}
+            - { label: "Song", name: "song", widget: "relation", collection: "songs", value_field: "body", search_fields: ["title"]}
