@@ -29,19 +29,3 @@ collections:
             value_field: "{{slug}}"
             search_fields: ["title"]
             display_fields: ["title"]
-  - name: "pages"
-    label: "Pages"
-    files:
-    - label: "Service"
-      name: "service"
-      file: "content/home.md"
-      identifier_field: "date"
-      fields:
-        - { label: "Date", name: "date", widget: "datetime", format: "MMMM Do", date_format: "MMMM Do", time_format: false}
-        - label: 'Songs'
-          name: "songs"
-          widget: "relation"
-          collection: "services"
-          value_field: "songs"
-          search_fields: ["date"]
-          display_fields: ["date"]
