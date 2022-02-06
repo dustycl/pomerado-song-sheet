@@ -39,12 +39,12 @@ export default function Home({ songsData }) {
   return (
     <div>
       <Head>
-        <title>Pomerado Sunday 1/16/22 Song Lyrics</title>
+        <title>Pomerado Sunday 2/6/22 Song Lyrics</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
-        <h1>Pomerado Song Lyrics<br /><small>Sunday 1/23</small></h1>
+        <h1>Pomerado Song Lyrics<br /><small>Sunday 2/6</small></h1>
       </header>
       
       <div   className="container">
