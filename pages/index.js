@@ -9,7 +9,7 @@ export async function getStaticProps() {
   // Get latest service
   // Map songs to songList
   
-  const songList = ["open-the-eyes-of-my-heart", "praise-the-lord-o-my-soul", "lead-me-the-rock"];
+  const songList = ["open-the-eyes-of-my-heart", "praise-the-lord-o-my-soul", "lead-me-to-the-rock"];
 
   const songsData = await Promise.all(songList.map(async song => {
     return await getSongData(song);
