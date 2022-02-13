@@ -9,7 +9,7 @@ export async function getStaticProps() {
   // Get latest service
   // Map songs to songList
   
-  const songList = ["unto-thee-o-lord", "the-spirits-fire", "hard-fighting-soldier"];
+  const songList = ["open-the-eyes-of-my-heart", "praise-the-lord-o-my-soul", "lead-me-the-rock"];
 
   const songsData = await Promise.all(songList.map(async song => {
     return await getSongData(song);
@@ -39,12 +39,12 @@ export default function Home({ songsData }) {
   return (
     <div>
       <Head>
-        <title>Pomerado Sunday 2/6/22 Song Lyrics</title>
+        <title>Pomerado Sunday 2/13/22 Song Lyrics</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
-        <h1>Pomerado Song Lyrics<br /><small>Sunday 2/6</small></h1>
+        <h1>Pomerado Song Lyrics<br /><small>Sunday February 13</small></h1>
       </header>
       
       <div   className="container">
