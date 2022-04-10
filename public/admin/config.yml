@@ -29,16 +29,19 @@ collections:
             value_field: "{{slug}}"
             search_fields: ["title"]
             display_fields: ["title"]
-  - name: "current-service"
-    label: "Current Service"
-    create: false
-    file: "../..contents/home.md"
-    fields:
-      label: "Service"
-      name: "Service"
-      widget: "relation"
-      collection: "services"
-      value_field: "{{slug}}"
-      search_fields: ["date"]
-      display_fields: ["date"]
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "current-service"
+        label: "Current Service"
+        create: false
+        file: "../..contents/home.md"
+        fields:
+          label: "Service"
+          name: "Service"
+          widget: "relation"
+          collection: "services"
+          value_field: "{{slug}}"
+          search_fields: ["date"]
+          display_fields: ["date"]
 
