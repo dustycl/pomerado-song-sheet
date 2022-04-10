@@ -37,11 +37,11 @@ collections:
         create: false
         file: "../..contents/home.md"
         fields:
-          label: "Service"
-          name: "Service"
-          widget: "relation"
-          collection: "services"
-          value_field: "{{slug}}"
-          search_fields: ["date"]
-          display_fields: ["date"]
+          - label: "Service"
+            name: "Service"
+            widget: "relation"
+            collection: "services"
+            value_field: "{{slug}}"
+            search_fields: ["date"]
+            display_fields: ["date"]
 
