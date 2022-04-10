@@ -41,7 +41,6 @@ collections:
             name: "Service"
             widget: "relation"
             collection: "services"
-            value_field: "{{slug}}"
+            value_field: "songs"
             search_fields: ["date"]
             display_fields: ["date"]
-
