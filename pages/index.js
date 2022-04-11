@@ -3,6 +3,7 @@ import Footer from '@components/Footer'
 import Image from 'next/image'
 import qrCode from '../public/images/qr-code.png'
 import { getSongData } from '../lib/songs'
+import { attributes, react as HomeConent } from '../content/home.md'
 
 
 export async function getStaticProps() {
@@ -36,6 +37,8 @@ const SongList = ({ songsData }) => {
 }
 
 export default function Home({ songsData }) {
+  const { date, songs } = attributes;
+
   return (
     <div>
       <Head>
@@ -48,9 +51,16 @@ export default function Home({ songsData }) {
         <h1>Pomerado Service<br /><small>Sunday April 10th</small></h1>
       </header>
       
-      <div   className="container">
+      <div className="container">
         <main>
-          <SongList songsData={songsData} />
+          {/*<SongList songsData={songsData} />*/}
+          <ul>
+            {songs.map((song, k) => (
+              <li key={k}>
+                {song}
+              </li>
+            ))}
+          </ul>
         </main>
         <aside>
           <Image src={qrCode} alt="qr code for link to lyrics" />
