@@ -41,6 +41,7 @@ export default function Home({ songsData }) {
       <Head>
         <title>Pomerado Sunday 4/10/22 Song Lyrics</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <header>
