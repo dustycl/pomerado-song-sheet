@@ -35,7 +35,7 @@ collections:
       - name: "current-service"
         label: "Current Service"
         create: false
-        file: "../../content/home.md"
+        file: "content/home.md"
         fields:
           - label: "Service"
             name: "Service"
