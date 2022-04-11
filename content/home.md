@@ -106,6 +106,10 @@ songs:
       In the service of the Lord\
       Keep on bringing souls to Jesus\
       By the service that I yield
+Service:
+  - song: all-to-jesus-i-surrender
+  - song: stand-in-awe
+  - song: when-i-survey-the-wondrous-cross
 ---
 Amazing grace how sweet the sound\
 I once was lost but now I′m found\
